@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+.img_brand{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 8px;
+    letter-spacing: 0.1rem;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+.img_brand:hover{
+    transform: scale(1.09);
+}
+.my-list {
+    margin-left: 60px;
+    padding:0;
+    list-style: url("../img/lens-black-18dp.svg");
+}
+.my-list li{
+    padding:6px;
+}
+.my-list li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #928bff;
+    transition-duration: 0.5s;
+}
+.my-list li:hover {
+    color: #928bff;
+}
+.lead::selection, p::selection, h1::selection, h4::selection, mark::selection, br::selection,
+img::selection, ul::selection, li::selection, span::selection, a::selection, small::selection{
+    background: #bdffc7; /* WebKit/Blink Browsers */
+}
+.float-but{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: block;
+    z-index: 1000;
+    cursor: pointer;
+}
+.main-color{
+    background-color: #e3f2fd;
+}
+.hr_menu{
+    border-top: 1px solid #afafaf;
+
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+@media (min-width: 576px) {
+    .block_margin{
+        margin-top: 14px;
+    }
+}
+@media (min-width: 768px) /*  >=  */ {
+    .block_margin{
+        margin-top: 20px;
+    }
+    .navbar-container {
+        position: sticky;
+        top: 0;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .navbar-container .navbar {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+    }
+    .navbar-container .navbar-collapse {
+        align-items: flex-start;
+    }
+    .navbar-container .nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .navbar-container .navbar-nav {
+        flex-direction: column !important;
+    }
+}
+@media (min-width: 992px) {
+    .block_margin{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .block_margin{
+        margin-top: 20px;
+    }
+}
