@@ -6,12 +6,20 @@ body{
 	margin-top: 80px;
 }
 .back-gradient{
-	background: rgb(190,214,247);
+	background: rgb(190, 214, 247);
 	background: linear-gradient(300deg, rgba(190,214,247,1) 0%, rgba(208,252,255,1) 50%, rgba(227,242,253,1) 100%);
 }
-.back-gradient_{
+.back-gradient-market{
 	background: rgb(190,214,247);
 	background: linear-gradient(300deg, rgb(227 247 190) 0%, rgb(228 255 238) 50%, rgba(227,242,253,1) 100%);
+}
+.back-gradient-litra{
+	background: rgb(205, 190, 247);
+	background: linear-gradient(300deg, #e0b6f6 0%, #cbdef8 100%);
+}
+.img-book{
+	height: 300px;
+	width: 100%;
 }
 .float-but{
 	position: fixed;
