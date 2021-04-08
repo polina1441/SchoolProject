@@ -11,15 +11,16 @@ body{
 }
 .back-gradient-market{
 	background: rgb(190,214,247);
-	background: linear-gradient(300deg, rgb(227 247 190) 0%, rgb(228 255 238) 50%, rgba(227,242,253,1) 100%);
+	background: linear-gradient(300deg, #e4fff0 50%, #c9f1ff 0%, #c9f1ff 100%);
 }
 .back-gradient-litra{
 	background: rgb(205, 190, 247);
-	background: linear-gradient(300deg, #e0b6f6 0%, #cbdef8 100%);
+	background: linear-gradient(300deg, #bdffc7 50%, #e3f2fd 0%, #e3f2fd  100%); /*64ff83*/
 }
 .img-book{
-	height: 300px;
-	width: 100%;
+	width: 70%;
+	margin-bottom: 8px;
+	margin-top: 8px;
 }
 .float-but{
 	position: fixed;
@@ -31,7 +32,7 @@ body{
 	z-index: 1000;
 	cursor: pointer;
 }
-.lead::selection, p::selection, h1::selection, h4::selection, mark::selection, br::selection,
+.lead::selection, p::selection, h1::selection, h4::selection, h6::selection, mark::selection, br::selection,
 img::selection, ul::selection, li::selection, span::selection, a::selection, small::selection{
 	background: #bdffc7; /* WebKit/Blink Browsers */
 }
