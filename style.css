@@ -15,7 +15,7 @@ body{
 }
 .back-gradient-litra{
 	background: rgb(205, 190, 247);
-	background: linear-gradient(300deg, #bdffc7 50%, #e3f2fd 0%, #e3f2fd  100%); /*64ff83*/
+	background: linear-gradient(300deg, #bdffc7 50%, #f6f6f6 0%, #f6f6f6 100%); /*64ff83*/
 }
 .img-book{
 	width: 70%;
@@ -32,9 +32,13 @@ body{
 	z-index: 1000;
 	cursor: pointer;
 }
+.a-none:hover{
+	text-decoration: none;
+	opacity: 0.59;
+}
 .lead::selection, p::selection, h1::selection, h4::selection, h6::selection, mark::selection, br::selection,
 img::selection, ul::selection, li::selection, span::selection, a::selection, small::selection{
-	background: #bdffc7; /* WebKit/Blink Browsers */
+	background: #bdffc7; /*bdffc7*/
 }
 .img_brand{
 	height: 70%;
@@ -72,13 +76,22 @@ img::selection, ul::selection, li::selection, span::selection, a::selection, sma
 .my-list li:hover {
 	color: #aca7fb;
 }
-
+.my-list a{
+	text-decoration: none;
+}
 .main-color{
 	background-color: #e3f2fd;
 }
 .hr_menu{
 	border-top: 1px solid #afafaf;
-
+}
+.my-footer{
+	background: #f8f9fa;
+	transition: background 1.9s;
+}
+.my-footer:hover{
+	background: #f8f9fa;
+	background: linear-gradient(300deg, #e3f2fd 0%, #e3f2fd 30%, white 100%);
 }
 .navbar-collapse {
 	flex-basis: 100%;
